@@ -1,6 +1,7 @@
+// JavaScript Selenium Tutorial: 
+
 const {Builder, By, Key, until} = require('selenium-webdriver');
 const assert = require ("assert")
-
 
 async function firstAutomationFunction() {
     var url = "https://todo-pwa.nico.dev/preact/";
